@@ -105,7 +105,7 @@ export default function Footer() {
 
         {/* Footer bottom */}
         <div className="border-t border-indigo-800 mt-16 pt-8 text-center text-indigo-400">
-          <p>© 2023 Creative Designer Portfolio. All rights reserved.</p>
+          <p>2023 Creative Designer Portfolio. All rights reserved.</p>
         </div>
       </div>
     </footer>

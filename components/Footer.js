@@ -40,7 +40,7 @@ export default function Footer() {
                   className="w-full px-4 py-3 bg-indigo-900 border border-indigo-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 ></textarea>
               </div>
-             <button className="mt-4 bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-2 rounded-full shadow-md hover:shadow-xl transition duration-300 transform hover:translate-y-[-2px] active:translate-y-[1px]">
+             <button className=" delay-150  ease-in-out mt-4 bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-2 rounded-full shadow-md hover:shadow-xl transition duration-300 transform hover:translate-y-[-2px] active:translate-y-[1px]">
                 Send Message
               </button>
             </form>
@@ -87,7 +87,7 @@ export default function Footer() {
                 <h4 className="font-bold text-indigo-300 mb-4">Follow Me</h4>
                 <div className="flex space-x-4">
                   <a href="#" className="w-12 h-12 rounded-full bg-indigo-800 flex items-center justify-center hover:bg-indigo-700 transition">
-                    <FaDribbble className="text-xl text-white" />
+                    <FaDribbble className="text-xl text-white animate-ping" />
                   </a>
                   <a href="#" className="w-12 h-12 rounded-full bg-indigo-800 flex items-center justify-center hover:bg-indigo-700 transition">
                     <FaBehance className="text-xl text-white" />

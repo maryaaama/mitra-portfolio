@@ -9,7 +9,7 @@ export default function Footer() {
           Get In <span className="text-indigo-300">Touch</span>
         </h2>
         <p className="text-center text-indigo-200 mb-16 max-w-2xl mx-auto">
-           Have a project in mind or want to discuss potential collaboration? I&apos;d love to hear from you.
+           Have a project in mind or want to discuss potential collaboration?
         </p>
         <div className="flex flex-col md:flex-row gap-12">
           {/* Contact Form */}

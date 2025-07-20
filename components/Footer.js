@@ -9,9 +9,8 @@ export default function Footer() {
           Get In <span className="text-indigo-300">Touch</span>
         </h2>
         <p className="text-center text-indigo-200 mb-16 max-w-2xl mx-auto">
-          Have a project in mind or want to discuss potential collaboration? I'd love to hear from you.
+           Have a project in mind or want to discuss potential collaboration? I&apos;d love to hear from you.
         </p>
-
         <div className="flex flex-col md:flex-row gap-12">
           {/* Contact Form */}
           <div className="md:w-1/2">
@@ -68,7 +67,7 @@ export default function Footer() {
                   </div>
                   <div>
                     <h4 className="font-bold text-indigo-300">WhatsApp</h4>
-                    <p className="text-indigo-100">+1 (555) 123-4567</p>
+                    <p className="text-indigo-100">09193429924</p>
                   </div>
                 </div>
 

@@ -11,8 +11,8 @@ export default function Hero() {
         {/* متن سمت چپ */}
         <div className="max-w-xl space-y-4 md:space-y-5">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight font-hero">
-            Hi, I'm Maryam<br />
-            A Front-End Developer
+             Hi, I&apos;m Maryam<br />
+             A Front-End Developer
           </h1>
           <p className="text-base md:text-lg leading-relaxed">
             I build modern and responsive websites with beautiful design and performance in mind.

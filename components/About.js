@@ -23,7 +23,7 @@ export default function About() {
         <div className="w-full md:w-1/2 text-center md:text-left">
           <h2 className="text-4xl font-bold text-white font-hero mb-6">About Me</h2>
           <p className="text-white text-lg leading-relaxed mb-8">
-            I’m a creative and detail-oriented front-end developer with a passion for clean UI, accessibility, and performance. I enjoy building beautiful web interfaces using React and Tailwind CSS.
+            I&apos;m a creative and detail-oriented front-end developer with a passion for clean UI, accessibility, and performance. I enjoy building beautiful web interfaces using React and Tailwind CSS.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">

@@ -21,23 +21,23 @@ export default function About() {
 
         {/* متن و آیکون‌ها */}
         <div className="w-full md:w-1/2 text-center md:text-left">
-          <h2 className="text-4xl font-bold text-white font-hero mb-6">About Me</h2>
+          <h2 className="text-4xl font-bold text-white font-hero mb-6">{"About Me"}</h2>
           <p className="text-white text-lg leading-relaxed mb-8">
-            I am a creative and detail-oriented front-end developer with a passion for clean UI, accessibility, and performance. I enjoy building beautiful web interfaces using React and Tailwind CSS.
+            {"I am a creative and detail-oriented front-end developer with a passion for clean UI, accessibility, and performance. I enjoy building beautiful web interfaces using React and Tailwind CSS."}
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             <div className="bg-white p-4 rounded-2xl shadow-md hover:shadow-xl transition">
               <FaLaptopCode className="text-indigo-600 text-4xl mx-auto mb-2" />
-              <p className="text-sm text-gray-600">Clean Code</p>
+              <p className="text-sm text-gray-600">{"Clean Code"}</p>
             </div>
             <div className="bg-white p-4 rounded-2xl shadow-md hover:shadow-xl transition">
               <FaPaintBrush className="text-indigo-600 text-4xl mx-auto mb-2" />
-              <p className="text-sm text-gray-600">Creative Design</p>
+              <p className="text-sm text-gray-600">{"Creative Design"}</p>
             </div>
             <div className="bg-white p-4 rounded-2xl shadow-md hover:shadow-xl transition">
               <FaGlobe className="text-indigo-600 text-4xl mx-auto mb-2" />
-              <p className="text-sm text-gray-600">Responsive Layout</p>
+              <p className="text-sm text-gray-600">{"Responsive Layout"}</p>
             </div>
           </div>
         </div>

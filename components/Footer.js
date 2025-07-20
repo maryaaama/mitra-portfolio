@@ -6,17 +6,17 @@ export default function Footer() {
     <footer id="contact" className="bg-[#0f172a] backdrop-blur-md py-16 relative z-10">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl md:text-4xl text-white font-bold text-center mb-4">
-          Get In <span className="text-indigo-300">Touch</span>
+          {"Get In"} <span className="text-indigo-300">{"Touch"}</span>
         </h2>
         <p className="text-center text-indigo-200 mb-16 max-w-2xl mx-auto">
-           Have a project in mind or want to discuss potential collaboration?
+           {"Have a project in mind or want to discuss potential collaboration?"}
         </p>
         <div className="flex flex-col md:flex-row gap-12">
           {/* Contact Form */}
           <div className="md:w-1/2">
             <form className="space-y-6">
               <div>
-                <label htmlFor="name" className="block mb-2 text-indigo-200">Your Name</label>
+                <label htmlFor="name" className="block mb-2 text-indigo-200">{"Your Name"}</label>
                 <input
                   type="text"
                   id="name"
@@ -24,7 +24,7 @@ export default function Footer() {
                 />
               </div>
               <div>
-                <label htmlFor="email" className="block mb-2 text-indigo-200">Email Address</label>
+                <label htmlFor="email" className="block mb-2 text-indigo-200">{"Email Address"}</label>
                 <input
                   type="email"
                   id="email"
@@ -32,7 +32,7 @@ export default function Footer() {
                 />
               </div>
               <div>
-                <label htmlFor="message" className="block mb-2 text-indigo-200">Your Message</label>
+                <label htmlFor="message" className="block mb-2 text-indigo-200">{"Your Message"}</label>
                 <textarea
                   id="message"
                   rows="5"
@@ -40,7 +40,7 @@ export default function Footer() {
                 ></textarea>
               </div>
              <button className=" delay-150  ease-in-out mt-4 bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-2 rounded-full shadow-md hover:shadow-xl transition duration-300 transform hover:translate-y-[-2px] active:translate-y-[1px]">
-                Send Message
+                {"Send Message"}
               </button>
             </form>
           </div>
@@ -48,7 +48,7 @@ export default function Footer() {
           {/* Contact Info */}
           <div className="md:w-1/2">
             <div className="bg-indigo-900 p-8 rounded-xl h-full">
-              <h3 className="text-xl font-bold mb-6 text-indigo-300">Contact Information</h3>
+              <h3 className="text-xl font-bold mb-6 text-indigo-300">{"Contact Information"}</h3>
 
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
@@ -56,8 +56,8 @@ export default function Footer() {
                     <FaEnvelope className="text-indigo-300" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-indigo-300">Email</h4>
-                    <p className="text-indigo-100">hello@designer.com</p>
+                    <h4 className="font-bold text-indigo-300">{"Email"}</h4>
+                    <p className="text-indigo-100">{"hello@designer.com"}</p>
                   </div>
                 </div>
 
@@ -66,8 +66,8 @@ export default function Footer() {
                     <FaWhatsapp className="text-indigo-300" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-indigo-300">WhatsApp</h4>
-                    <p className="text-indigo-100">09193429924</p>
+                    <h4 className="font-bold text-indigo-300">{"WhatsApp"}</h4>
+                    <p className="text-indigo-100">{"09193429924"}</p>
                   </div>
                 </div>
 
@@ -76,14 +76,14 @@ export default function Footer() {
                     <FaMapMarkerAlt className="text-indigo-300" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-indigo-300">Location</h4>
-                    <p className="text-indigo-100">New York, USA</p>
+                    <h4 className="font-bold text-indigo-300">{"Location"}</h4>
+                    <p className="text-indigo-100">{"New York, USA"}</p>
                   </div>
                 </div>
               </div>
 
               <div className="mt-12">
-                <h4 className="font-bold text-indigo-300 mb-4">Follow Me</h4>
+                <h4 className="font-bold text-indigo-300 mb-4">{"Follow Me"}</h4>
                 <div className="flex space-x-4">
                   <a href="#" className="w-12 h-12 rounded-full bg-indigo-800 flex items-center justify-center hover:bg-indigo-700 transition">
                     <FaDribbble className="text-xl text-white animate-ping" />
@@ -105,7 +105,7 @@ export default function Footer() {
 
         {/* Footer bottom */}
         <div className="border-t border-indigo-800 mt-16 pt-8 text-center text-indigo-400">
-          <p>2023 Creative Designer Portfolio. All rights reserved.</p>
+          <p>{"2023 Creative Designer Portfolio. All rights reserved."}</p>
         </div>
       </div>
     </footer>

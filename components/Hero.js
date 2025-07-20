@@ -11,14 +11,14 @@ export default function Hero() {
        
         <div className="max-w-xl space-y-4 md:space-y-5">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight font-hero">
-             Hi, I am Maryam<br />
-             A Front-End Developer
+            {" Hi, I am Maryam"}<br />
+            { "A Front-End Developer"}
           </h1>
           <p className="text-base md:text-lg leading-relaxed">
-            I build modern and responsive websites with beautiful design and performance in mind
+           {" I build modern and responsive websites with beautiful design and performance in mind"}
           </p>
           <button className="mt-4 bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-2 rounded-full shadow-md hover:shadow-xl transition duration-300 transform hover:translate-y-[-2px] active:translate-y-[1px]">
-            View My Work
+           {" View My Work"}
           </button>
          
           <div className="flex gap-4 text-3xl text-white drop-shadow mt-4">

@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Portfolio from "@/components/Portfolio";
-
+import OurServices from "@/components/OurServices"
 
 
 export default function Home() {
@@ -23,6 +23,7 @@ export default function Home() {
       <Navbar/>
       <Hero/>
       <About/>
+      <OurServices/>
       <Portfolio/>
       <Footer/>
     </>
